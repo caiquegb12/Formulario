@@ -1,0 +1,144 @@
+body{
+    font-family: "Arial", Helvetica, sans-serif; 
+    margin: auto;
+    padding: 0;
+    color: black
+}
+
+.pagina {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #00008b;
+}
+
+.FormLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.4);
+    gap: 7px;
+}
+
+.FormLogin h1{
+    padding: 0;
+    margin: auto;
+    font-weight: 500;
+    font-size: 2.3;
+}
+
+.FormLogin p{
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: auto;
+}
+
+.FormLogin input{
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #2556f7;
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.FormLogin input:focus {
+    border: 1px solid #2802ff;
+}
+
+.FormLogin label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.FormLogin a {
+    display: inline-block;
+    margin-bottom: auto;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.FormLogin a:hover {
+    color: #ff0000
+}
+
+.btn{
+   background-color: #f76125;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 600;
+   border: none;
+   transition: all linear 160ms;
+   cursor: pointer;
+   margin: 0;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    background-color: #ff0676;
+}
+
+.FormCad {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.4);
+    gap: 7px;
+}
+
+.FormCad h1{
+    padding: 0;
+    margin: auto;
+    font-weight: 500;
+    font-size: 2.3;
+}
+
+.FormCad p{
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.FormCad input{
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #2556f7;
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.FormCad input:focus {
+    border: 1px solid #2802ff;
+}
+
+.FormCad label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.FormCad a {
+    display: inline-block;
+    margin-bottom: auto;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.FormCad a:hover {
+    color: #ff0000
+}
